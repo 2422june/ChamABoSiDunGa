@@ -35,8 +35,8 @@ public class CursorController : MonoBehaviour
         if (mousePos.y > 300)
             mousePos.y = 300;*/
 
-        mousePos.x = w * (Input.mousePosition.x);// - 960);
-        mousePos.y = h * (Input.mousePosition.y);// - 540);
+        mousePos.x = w * (Input.mousePosition.x - 960);
+        mousePos.y = h * (Input.mousePosition.y - 540);
         
 
         //Input.mousePosition.Set(mousePos.x, mousePos.y, mousePos.z);
