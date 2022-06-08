@@ -248,23 +248,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 46ebffff
-      m_LastClickedID: -5306
-      m_ExpandedIDs: 32fbfffffe5c0000925d0000dc5f0000
+      m_SelectedIDs: aaf0ffff
+      m_LastClickedID: -3926
+      m_ExpandedIDs: 32fbffff065d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: MainCamera
-        m_OriginalName: MainCamera
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 24544
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 6}
       m_SearchString: 
@@ -302,7 +302,7 @@ MonoBehaviour:
   - {fileID: 10}
   - {fileID: 11}
   m_Selected: 1
-  m_LastSelected: 0
+  m_LastSelected: 3
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -579,7 +579,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.010344277, y: -0.98962235, z: 0.10460883, w: 0.09835358}
     speed: 2
-    m_Value: {x: 0.010343885, y: -0.98958486, z: 0.10460486, w: 0.098349854}
+    m_Value: {x: -0.010344276, y: 0.98962235, z: -0.10460882, w: -0.09835357}
   m_Size:
     m_Target: 1.534767
     speed: 2
@@ -767,9 +767,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 0a630000
-    m_LastClickedID: 25354
-    m_ExpandedIDs: 00000000da62000000ca9a3b
+    m_SelectedIDs: 44630000
+    m_LastClickedID: 25412
+    m_ExpandedIDs: 00000000f2620000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -797,7 +797,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000da62000000ca9a3b
+    m_ExpandedIDs: 00000000f2620000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -822,9 +822,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 46ebffff
-    m_LastClickedInstanceID: -5306
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: f85f0000
+    m_LastClickedInstanceID: 24568
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300000000000000670000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
