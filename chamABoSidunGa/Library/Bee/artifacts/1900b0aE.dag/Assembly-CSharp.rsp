@@ -363,6 +363,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/External_Asset/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Readme.cs"
 "Assets/Scripts/ButtonManager.cs"
+"Assets/Scripts/CursorController.cs"
+"Assets/Scripts/GameManager.cs"
 "Assets/Scripts/PlayerMove.cs"
 -langversion:9.0
 
