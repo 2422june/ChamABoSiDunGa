@@ -7531,6 +7531,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a78f5290a6b626543aeabfe372939ca3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  str:
+  - Typing Please.hhhhhhhhhhhhhhhhhhh
+  - Typing Please.hhhhhhhhhhhhhhhhhhh
+  textBox: {fileID: 1982217585}
 --- !u!4 &1407898490
 Transform:
   m_ObjectHideFlags: 0
@@ -11189,9 +11193,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Typing Please.hhhhhhhhhhhhhhhhhhh
-
-'
+  m_Text: 
 --- !u!222 &1982217588
 CanvasRenderer:
   m_ObjectHideFlags: 0
