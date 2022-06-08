@@ -312,8 +312,7 @@
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll"
 "Assets/External_Asset/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Readme.cs"
-"Assets/Scripts/ButtonManager.cs"
-"Assets/Scripts/PlayerMove.cs"
+"Assets/Scripts/CountdownText.cs"
 -langversion:9.0
 
 /deterministic
