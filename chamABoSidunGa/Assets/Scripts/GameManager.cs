@@ -10,6 +10,8 @@ public class GameManager : MonoBehaviour
 
     private WaitForSeconds one;
     private CountdownText CntDnText;
+    private DialogueManager DialogueMng;
+    private AudioManger AudioMng;
 
     private void Awake()
     {
@@ -21,7 +23,11 @@ public class GameManager : MonoBehaviour
         time = 60;
         one = new WaitForSeconds(1);
 
+        AudioMng = GetComponent<AudioManger>();
+        DialogueMng = GetComponent<DialogueManager>();
         CntDnText = GetComponent<CountdownText>();
+
+        DialogueMng.Init();
         CntDnText.Init();
         CntDnText.Set(time);
 
