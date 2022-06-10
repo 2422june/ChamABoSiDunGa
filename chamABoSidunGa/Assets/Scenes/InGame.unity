@@ -7867,6 +7867,8 @@ GameObject:
   - component: {fileID: 1407898491}
   - component: {fileID: 1407898492}
   - component: {fileID: 1407898493}
+  - component: {fileID: 1407898494}
+  - component: {fileID: 1407898495}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -8177,6 +8179,35 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1407898494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1407898488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0fb53746ee07aa4c88342798f6e44b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textBox: {fileID: 1982217585}
+  str: 
+  time: 
+  person: 
+--- !u!114 &1407898495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1407898488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5762557dd40ef1a4ba348191424833b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  time: 59
 --- !u!1001 &1434736397
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11760,7 +11791,6 @@ GameObject:
   - component: {fileID: 1982217586}
   - component: {fileID: 1982217588}
   - component: {fileID: 1982217587}
-  - component: {fileID: 1982217589}
   m_Layer: 5
   m_Name: Text (Legacy)
   m_TagString: Untagged
@@ -11821,8 +11851,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uC624\uB298\uB3C4 \uC57C\uADFC \uD558\uB294\uC911...\n\n\uC624\uC804
-    01 : 00"
+  m_Text: 
 --- !u!222 &1982217588
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11831,21 +11860,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1982217585}
   m_CullTransparentMesh: 1
---- !u!114 &1982217589
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1982217585}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0fb53746ee07aa4c88342798f6e44b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  str: 
-  time: 
-  person: 
 --- !u!1001 &1989537691
 PrefabInstance:
   m_ObjectHideFlags: 0

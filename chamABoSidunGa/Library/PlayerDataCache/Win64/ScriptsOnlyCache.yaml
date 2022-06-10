@@ -192,7 +192,7 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
-      Hash: ec6507cb9d158675d9f40fdafe665513
+      Hash: 418fc3b38bb905bd7a7cfc06414e926b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CountdownText
@@ -943,4 +943,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/InGame.unity
-  playerPath: D:/Build/ChamABoSiDunGa/ChamABoSidunGa.exe
+  playerPath: D:/Build/ChamABoSiDunGa/ChamABoSidunGa_Data/ChamABoSidunGa.exe

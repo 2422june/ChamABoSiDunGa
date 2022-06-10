@@ -6,68 +6,64 @@ using UnityEngine;
 public class CountdownText : MonoBehaviour
 {
 
-    Text text;
-
     [SerializeField]
-    string str, time, person;
+    private GameObject textBox;
+    [SerializeField]
+    private string str;
+    [SerializeField]
+    private string time;
+    [SerializeField]
+    private string person;
 
-    int timeNum = 60, i = 0, personCnt;
+    private Text text;
+    private int i;
+    private int personCnt;
 
-    WaitForSeconds one = new WaitForSeconds(1);
-
-    void Start()
+    public void Init()
     {
-        personCnt = 6;
-        text = GetComponent<Text>();
-        str = "오늘도 야근 하는중...";
-        time = $"{timeNum / 60} : {timeNum % 60}";
-        i = str.Length;
+        text = textBox.GetComponent<Text>();
 
-        StartCoroutine(Roop());
+        personCnt = 6;
+        str = "오늘도 야근 하는중...";
+
+        i = str.Length - 1;
     }
 
-    void Set(int i)
+    public void Set(int timeNum)
     {
+        if (i == (str.Length - 3))
+            i = str.Length;
+        else
+            i--;
+
         text.text = str.Substring(0, i);
         text.text += "\n\n";
 
-        timeNum++;
-        if ((timeNum / 60) < 10)
-            time = $"오전 0{timeNum / 60} : ";
-        else
-            time = $"오전 {timeNum / 60} : ";
 
+        time = "오전 ";
+        if ((timeNum / 60) < 10)
+            time += "0";
+
+        time += $"{timeNum / 60} : ";
         if ((timeNum % 60) < 10)
-            time += $"0{timeNum % 60}\n\n";
-        else
-            time += $"{timeNum % 60}\n\n";
+            time += "0";
+
+        time += $"{timeNum % 60}\n\n";
         text.text += time;
+
 
         person = $"현재 야근중인 직원 수 : {personCnt}";
         text.text += person;
+
+        Event();
     }
 
-    IEnumerator Roop()
+    private void Event()
     {
-        while (timeNum > 0)
+        switch (time)
         {
-            yield return one;
-            Set(i - 1);
-
-            yield return one;
-            Set(i - 2);
-
-            yield return one;
-            Set(i - 3);
-
-            yield return one;
-            Set(i - 2);
-
-            yield return one;
-            Set(i - 1);
-
-            yield return one;
-            Set(i);
+            default:
+                break;
         }
     }
 }
