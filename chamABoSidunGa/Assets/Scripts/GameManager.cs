@@ -41,6 +41,17 @@ public class GameManager : MonoBehaviour
             yield return one;
             time++;
             CntDnText.Set(time);
+
+            Event();
+        }
+    }
+
+    private void Event()
+    {
+        switch (time)
+        {
+            default:
+                break;
         }
     }
 }
